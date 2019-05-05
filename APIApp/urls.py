@@ -5,7 +5,9 @@ urlpatterns = [
     path('add/', views.ImageUploadView.as_view()),
     path('images/', views.ImageViewSet.as_view()),
     path('comment/', views.CommentUploadView.as_view()),
+    path('register/',views.RegisterView.as_view()),
     path('getcomment/', views.CommentViewSet.as_view()),
+    path('getusername/', views.UserViewSet.as_view()),
     
 ]
 
